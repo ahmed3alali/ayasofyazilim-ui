@@ -476,7 +476,7 @@ export default function DataTable<TData, TValue>({
       {(showView || defaultAction) && (
         <div
           className={cn(
-            'flex items-center mr-auto  ',
+            'flex items-center mr-auto ',
             classNames?.actions?.container
           )}
         >
